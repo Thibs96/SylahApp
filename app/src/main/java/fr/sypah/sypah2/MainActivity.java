@@ -24,4 +24,14 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void goSession(View view){
+        Intent intent = new Intent(this, Session.class);
+        startActivity(intent);
+    }
+
+    public void sendLogin(View view){
+        Intent intent = new Intent(this, LoginActivity.class);
+        startActivity(intent);
+    }
+
 }

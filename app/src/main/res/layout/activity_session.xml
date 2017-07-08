@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+
+        android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fr.sypah.sypah2.Session"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="8dp"
+            android:onClick="afficheSession"
+            android:scaleType="fitCenter"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/vignette1"
+            tools:layout_editor_absoluteX="33dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:onClick="afficheSession"
+            android:scaleType="fitCenter"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton"
+            app:srcCompat="@drawable/vignette2"
+            tools:layout_editor_absoluteX="33dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:onClick="afficheSession"
+            android:scaleType="fitCenter"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+            app:srcCompat="@drawable/vignette3"
+            tools:layout_editor_absoluteX="33dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:onClick="afficheSession"
+            android:scaleType="fitCenter"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+            app:srcCompat="@drawable/vignette4"
+            tools:layout_editor_absoluteX="33dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:onClick="afficheSession"
+            android:scaleType="fitCenter"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+            app:srcCompat="@drawable/vignette5"
+            tools:layout_editor_absoluteX="33dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:onClick="afficheSession"
+            android:scaleType="fitCenter"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton5"
+            app:srcCompat="@drawable/vignette6"
+            tools:layout_editor_absoluteX="33dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="8dp"
+            android:onClick="afficheSession"
+            android:scaleType="fitCenter"
+            app:layout_constraintLeft_toRightOf="@+id/imageButton"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/vignette7" />
+
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="30dp"
+            android:onClick="afficheSession"
+            android:scaleType="fitCenter"
+            app:layout_constraintLeft_toRightOf="@+id/imageButton2"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton7"
+            app:srcCompat="@drawable/vignette8" />
+
+        <ImageButton
+            android:id="@+id/imageButton9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="30dp"
+            android:onClick="afficheSession"
+            android:scaleType="fitCenter"
+            app:layout_constraintLeft_toRightOf="@+id/imageButton3"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton8"
+            app:srcCompat="@drawable/vignette9" />
+
+        <ImageButton
+            android:id="@+id/imageButton10"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="30dp"
+            android:onClick="afficheSession"
+            android:scaleType="fitCenter"
+            app:layout_constraintLeft_toRightOf="@+id/imageButton4"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton9"
+            app:srcCompat="@drawable/vignette11" />
+
+        <ImageButton
+            android:id="@+id/imageButton11"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="30dp"
+            android:onClick="afficheSession"
+            android:scaleType="fitCenter"
+            app:layout_constraintLeft_toRightOf="@+id/imageButton5"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton10"
+            app:srcCompat="@drawable/vignette12" />
+
+        <ImageButton
+            android:id="@+id/imageButton12"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="30dp"
+            android:onClick="afficheSession"
+            android:scaleType="fitCenter"
+            app:layout_constraintLeft_toRightOf="@+id/imageButton6"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton11"
+            app:srcCompat="@drawable/vignette10" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="214dp"
+            android:layout_height="29dp"
+            android:text="Maquillage, mode, beauté"
+            android:layout_marginLeft="16dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="191dp"
+            android:layout_height="32dp"
+            android:text="Sport, coaching, relaxation"
+            android:layout_marginLeft="16dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="162dp"
+            android:layout_height="33dp"
+            android:text="Cuisine, art de la table"
+            android:layout_marginLeft="16dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton3" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="166dp"
+            android:layout_height="30dp"
+            android:text="Bricolage, jardinage"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+            android:layout_marginLeft="16dp"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="148dp"
+            android:layout_height="26dp"
+            android:text="Musique, chant"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton5"
+            android:layout_marginLeft="16dp"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="188dp"
+            android:layout_height="27dp"
+            android:text="Photo, cinéma, théâtre"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton6"
+            android:layout_marginLeft="16dp"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="165dp"
+            android:layout_height="31dp"
+            android:text="Langues, management"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton7"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_editor_absoluteX="238dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="144dp"
+            android:layout_height="43dp"
+            android:text="Informatique, web, design"
+            android:layout_marginTop="2dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton8"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="152dp"
+            android:layout_height="32dp"
+            android:text="Décoration, ateliers créatifs"
+            android:layout_marginTop="2dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton9"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="149dp"
+            android:layout_height="31dp"
+            android:text="Littérature, culture"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton10"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="138dp"
+            android:layout_height="21dp"
+            android:text="Vie quotidienne"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton11"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_editor_absoluteX="265dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="66dp"
+            android:layout_height="25dp"
+            android:text="Divers"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton12"
+            android:layout_marginRight="55dp"
+            app:layout_constraintRight_toRightOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
