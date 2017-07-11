@@ -42,13 +42,13 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:theme ="@style/AppTheme.NoActionBar"/>
-
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Session" />
         <activity android:name=".Login" />
         <activity android:name=".Inscription" />
         <activity android:name=".DatabaseHelper" />
-        <activity android:name=".Tab3"></activity>
+        <activity android:name=".Tab3" />
+        <activity android:name=".Concept"></activity>
     </application>
 
 </manifest>

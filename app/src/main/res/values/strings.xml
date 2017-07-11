@@ -9,9 +9,12 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="image_sypah">Tentez l expérience</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_login">Sign in</string>
+    <string name="intervenant">Vous recevrez un certain nombre de participants à votre domicile ou dans un lieu extérieur afin de leur présenter votre session.
+        Vous renseignez la date, le nombre de participants, le prix, les activités proposées, le matériel à ramener (si nécessaire). Vous organisez votre session de A à Z
+        Vous serez rémunéré dans les 72 heures (jours ouvrés) qui suivent le déroulement de la session.
+        Sur le montant perçu, Sypah prend une commission de 15% pour la mise en relation et les frais de gestion. Toutes les cartes sont maintenant entre vos mains. </string>
 
 
     <!-- Tibs things -->

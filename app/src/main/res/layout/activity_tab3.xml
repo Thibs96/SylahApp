@@ -6,4 +6,17 @@
     android:layout_height="match_parent"
     tools:context="fr.sypah.sypah2.Tab3">
 
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="@string/intervenant"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>

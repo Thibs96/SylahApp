@@ -18,7 +18,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String COLUMN_ID = "ID";
     private static final String COLUMN_PRENOM = "PRENOM";
     private static final String COLUMN_PSEUDO = "PSEUDO";
-    private static final String COLUMN_ANIMAL = "ANIMAL";
     private static final String COLUMN_PASS = "PASS";
     private static final String COLUMN_PASS2 = "PASS2";
 
@@ -39,12 +38,11 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         onCreate(db);
     }
 
-    public boolean insertUtilisateurs(String prenom, String pseudo, String animal, String pass, String pass2) {
+    public boolean insertUtilisateurs(String prenom, String pseudo, String pass, String pass2) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
         contentValues.put(COLUMN_PRENOM, prenom);
         contentValues.put(COLUMN_PSEUDO, pseudo);
-        contentValues.put(COLUMN_ANIMAL, animal);
         contentValues.put(COLUMN_PASS, pass);
         contentValues.put(COLUMN_PASS2, pass2);
 

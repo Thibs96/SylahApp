@@ -31,8 +31,8 @@ public class Inscription extends ActionBarActivity {
     private static final String TAG = "inscription";
     DatabaseHelper db;
     private Button button_confirm, btnviewAll;
-    private EditText nom, pseudo,pass1, pass2, animal;
-    private TextView text_nom, text_pseudo, text_pass, text_confirmpass,text_animal;
+    private EditText nom, pseudo,pass1, pass2;
+    private TextView text_nom, text_pseudo, text_pass, text_confirmpass;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,7 +46,7 @@ public class Inscription extends ActionBarActivity {
         pseudo = (EditText) findViewById(R.id.saisis_pseudo);
         pass1 = (EditText) findViewById(R.id.saisis_pass);
         pass2 = (EditText) findViewById(R.id.saisis_confirmpass);
-        animal = (EditText) findViewById(R.id.saisis_animal);
+
 
         try{
             AddData();
@@ -77,7 +77,6 @@ public class Inscription extends ActionBarActivity {
                             buffer.append("ID :"+ res.getString(0)+"\n");
                             buffer.append("PRENOM :"+ res.getString(1)+"\n");
                             buffer.append("PSEUDO :"+ res.getString(2)+"\n");
-                            buffer.append("ANIMAL :"+ res.getString(3)+"\n\n");
                             buffer.append("PASS :"+ res.getString(4)+"\n\n");
                         }
 
@@ -94,7 +93,6 @@ public class Inscription extends ActionBarActivity {
                                               public void onClick(View v) {
                                                   boolean isInserted = db.insertUtilisateurs(nom.getText().toString(),
                                                           pseudo.getText().toString(),
-                                                          animal.getText().toString(),
                                                           pass1.getText().toString(),
                                                           pass2.getText().toString());
                                                   if(isInserted == true)

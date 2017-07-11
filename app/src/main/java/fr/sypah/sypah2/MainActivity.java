@@ -4,6 +4,7 @@ package fr.sypah.sypah2;
  */
 
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.support.design.widget.TabLayout;
@@ -103,10 +104,10 @@ public class MainActivity extends AppCompatActivity {
         public Fragment getItem(int position) {
             switch (position) {
                 case 0:
-                    Session homepage = new Session();
+                    Concept homepage = new Concept();
                     return homepage;
                 case 1:
-                    DisplaySession tab2 = new DisplaySession();
+                    Session tab2 = new Session();
                     return tab2;
                 case 2:
                     Tab3 tab3 = new Tab3();
@@ -131,10 +132,15 @@ public class MainActivity extends AppCompatActivity {
                 case 1:
                     return "Session";
                 case 2:
-                    return "??";
+                    return "Intervenants";
             }
             return null;
         }
+    }
+
+    public void afficheSession(View view){
+        Intent intent = new Intent(this, DisplaySession.class);
+        startActivity(intent);
     }
 }
 
