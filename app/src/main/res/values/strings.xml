@@ -15,7 +15,8 @@
         Vous renseignez la date, le nombre de participants, le prix, les activités proposées, le matériel à ramener (si nécessaire). Vous organisez votre session de A à Z
         Vous serez rémunéré dans les 72 heures (jours ouvrés) qui suivent le déroulement de la session.
         Sur le montant perçu, Sypah prend une commission de 15% pour la mise en relation et les frais de gestion. Toutes les cartes sont maintenant entre vos mains. </string>
-
+    <string name="concept">Sypah est un projet d économie collaborative. Un site de mise en relation entre particuliers et/ou professionnels afin de transmettre et partager un savoir,
+        une passion, autour d un concept original et d une ambiance conviviale et amicale. </string>
 
     <!-- Tibs things -->
     <string name="reslbl">Fonctionnalités</string>
@@ -60,4 +61,21 @@
     </string>
     <string name="title_activity_splash_screen">SplashScreen</string>
     <string name="title_activity_inscription">Inscription</string>
+
+    <!-- Strings related to spinner -->
+    <string-array name="Theme_array">
+        <item>Maquillage - Mode - Beauté</item>
+        <item>Sport - Coaching - Relaxation</item>
+        <item>Cuisine - Art de la table</item>
+        <item>Bricolage - Jardinage</item>
+        <item>Musique - Chant</item>
+        <item>Photo - Cinéma -Théâtre</item>
+        <item>Langues - Management</item>
+        <item>Informatique - Web - Design</item>
+        <item>Décoration - Ateliers créatifs</item>
+        <item>Littérature - Culture</item>
+        <item>Vie quotidienne</item>
+        <item>Divers</item>
+    </string-array>
+
 </resources>
