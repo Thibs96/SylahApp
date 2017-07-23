@@ -48,7 +48,8 @@
         <activity android:name=".Inscription" />
         <activity android:name=".DatabaseHelper" />
         <activity android:name=".Tab3" />
-        <activity android:name=".Concept"></activity>
+        <activity android:name=".Concept" />
+        <activity android:name=".SpinnerSelect"></activity>
     </application>
 
 </manifest>

@@ -2,10 +2,11 @@
     <string name="app_name">Sypah2</string>
     <string name="edit_message">Recherche</string>
     <string name="button_send">Valider</string>
-    <string name="button_session">Sessions</string>
+    <string name="button_session">Créer une session</string>
     <string name="button_login">Login</string>
     <string name="button_proposer">Proposer</string>
     <string name="title_activity_main2">Main2Activity</string>
+    <string name="theme1">Thèmes</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -64,6 +65,7 @@
 
     <!-- Strings related to spinner -->
     <string-array name="Theme_array">
+        <item> </item>
         <item>Maquillage - Mode - Beauté</item>
         <item>Sport - Coaching - Relaxation</item>
         <item>Cuisine - Art de la table</item>
