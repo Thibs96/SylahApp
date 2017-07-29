@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
                 case 0:
                     return "Menu";
                 case 1:
-                    return "Session";
+                    return "Sessions";
                 case 2:
                     return "Intervenants";
             }

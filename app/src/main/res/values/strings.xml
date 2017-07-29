@@ -65,7 +65,7 @@
 
     <!-- Strings related to spinner -->
     <string-array name="Theme_array">
-        <item> </item>
+        <item>Aucune séléction </item>
         <item>Maquillage - Mode - Beauté</item>
         <item>Sport - Coaching - Relaxation</item>
         <item>Cuisine - Art de la table</item>
@@ -78,6 +78,23 @@
         <item>Littérature - Culture</item>
         <item>Vie quotidienne</item>
         <item>Divers</item>
+    </string-array>
+
+    <string-array name="Region_array">
+        <item>Aucune séléction</item>
+        <item>Alsace-Champagne-Ardenne-Lorraine</item>
+        <item>Aquitaine-Limousin-Poitou-Charentes</item>
+        <item>Auvergne-Rhône-Alpes</item>
+        <item>Bourgogne-Franche-Comté</item>
+        <item>Bretagne</item>
+        <item>Centre-Val de Loire</item>
+        <item>Corse</item>
+        <item>Ile-de-France</item>
+        <item>Languedoc-Roussillon-Midi-Pyrénées</item>
+        <item>Nord-Pas-de-Calais-Picardie</item>
+        <item>Normandie</item>
+        <item>Pays de la Loire</item>
+        <item>Provence-Alpes-Côte d Azur</item>
     </string-array>
 
 </resources>

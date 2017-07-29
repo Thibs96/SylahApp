@@ -17,7 +17,7 @@ package fr.sypah.sypah2;
 public class Login extends AppCompatActivity {
     DatabaseHelper helper_pass = new DatabaseHelper(this);
 
-    private Button button_compte, button_connection;
+    private Button button_compte, button_connection, button_invite;
     private EditText editText_Login, editText_pass;
     private TextView login, pass;
     private ImageView im_esiee;
@@ -52,6 +52,11 @@ public class Login extends AppCompatActivity {
             Intent intent = new Intent(Login.this, Inscription.class);
             startActivity(intent);
         }
+
+        if(v.getId()==R.id.button_invite) {
+            Intent intent = new Intent(Login.this, MainActivity.class);
+            startActivity(intent);
+        }
     }
 
 
@@ -62,7 +67,7 @@ public class Login extends AppCompatActivity {
 
         button_compte = (Button) findViewById(R.id.button_compte);
         button_connection = (Button) findViewById(R.id.button_connection);
-
+        button_invite = (Button) findViewById(R.id.button_invite);
     }
 
 
