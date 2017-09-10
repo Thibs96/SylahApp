@@ -20,12 +20,11 @@ public class Login extends AppCompatActivity {
     private Button button_compte, button_connection, button_invite;
     private EditText editText_Login, editText_pass;
     private TextView login, pass;
-    private ImageView im_esiee;
 
 
     public void OnClick(View v){
         Context context = Login.this;
-        CharSequence message = "prénom ou login incorrect";
+        CharSequence message = "login ou MDP incorrect";
         int duree = Toast.LENGTH_SHORT;
 
         if(v.getId() == R.id.button_connection)
@@ -37,14 +36,14 @@ public class Login extends AppCompatActivity {
 
             String pass_trouve = helper_pass.searchPass(loginstr);
             if(passstr.equals(pass_trouve)){
-                Intent intent = new Intent(Login.this,MainActivity.class); //passage de l'activité homepage à interfaceMainActivity
+                Intent intent = new Intent(Login.this,MainActivity.class);
                 intent.putExtra("prenom",loginstr);// associe les données à l'intention d'ouverture
                 startActivity(intent);//lance l'activité
 
             }
             else{
 
-                Toast toast = Toast.makeText(context, message, duree); // créé un Toast qui fournit un commentaire sur une opération dans un popup
+                Toast toast = Toast.makeText(context, message, duree);
                 toast.show();
             }
         }

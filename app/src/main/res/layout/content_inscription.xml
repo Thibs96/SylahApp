@@ -167,18 +167,18 @@
             android:background="#BAFE86"/>
 
         <Button
+            android:id="@+id/btnviewAll"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Voir DB"
-            android:id="@+id/btnviewAll"
-            android:onClick="OnClick"
-            android:layout_marginLeft="35dp"
-            android:layout_marginRight="20dp"
-            android:layout_below="@+id/button_confirm"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
+            android:layout_below="@+id/button_confirm"
             android:layout_gravity="right"
-            android:layout_weight="50"/>
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="50"
+            android:onClick="OnClick"
+            android:text="Annuler" />
 
 
     </LinearLayout>

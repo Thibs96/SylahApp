@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Sypah2</string>
+    <string name="app_name">Sypah</string>
     <string name="edit_message">Recherche</string>
     <string name="button_send">Valider</string>
     <string name="button_session">Créer une session</string>
@@ -16,8 +16,8 @@
         Vous renseignez la date, le nombre de participants, le prix, les activités proposées, le matériel à ramener (si nécessaire). Vous organisez votre session de A à Z
         Vous serez rémunéré dans les 72 heures (jours ouvrés) qui suivent le déroulement de la session.
         Sur le montant perçu, Sypah prend une commission de 15% pour la mise en relation et les frais de gestion. Toutes les cartes sont maintenant entre vos mains. </string>
-    <string name="concept">Sypah est un projet d économie collaborative. Un site de mise en relation entre particuliers et/ou professionnels afin de transmettre et partager un savoir,
-        une passion, autour d un concept original et d une ambiance conviviale et amicale. </string>
+    <string name="concept"> Entrez dans la communauté Sypah.
+Nous avons tous quelque chose qui nous rend exceptionnel. Faites nous découvrir vos talents grâce à Sypah.  </string>
 
     <!-- Tibs things -->
     <string name="reslbl">Fonctionnalités</string>
